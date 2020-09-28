@@ -1,7 +1,7 @@
 {
     "id": "org.kde.konversation",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.12",
+    "runtime-version": "5.15",
     "sdk": "org.kde.Sdk",
     "command": "konversation",
     "rename-icon": "konversation",
@@ -20,8 +20,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/qca/2.2.1/qca-2.2.1.tar.xz",
-                    "sha256": "d716d2d8e3ed8d95bbdb061f03081d7d032206f746a30a4d29d72196f50e7b02"
+                    "url": "https://download.kde.org/stable/qca/2.3.1/qca-2.3.1.tar.xz",
+                    "sha256": "c13851109abefc4623370989fae3a745bf6b1acb3c2a13a8958539823e974e4b"
                 }
             ]
         },
@@ -31,12 +31,12 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/konversation/1.7.5/src/konversation-1.7.5.tar.xz",
-                    "sha256": "60bf7533062b5fc63a37105461b4776437f4e24859e8ddaed1d48c4ba1470940"
+                    "url": "https://download.kde.org/stable/konversation/1.7.6/src/konversation-1.7.6.tar.xz",
+                    "sha256": "fdd24f2c8c73eb271afea457466e1e7050b70c4d96f9d6640f2bbf6390cea093"
                 },
                 {
                     "type": "patch",
-                    "path": "konversation-appdata.patch"
+                    "path": "oars.patch"
                 }
             ]
         }
