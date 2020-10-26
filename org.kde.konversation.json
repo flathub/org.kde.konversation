@@ -31,12 +31,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/konversation/1.7.6/src/konversation-1.7.6.tar.xz",
-                    "sha256": "fdd24f2c8c73eb271afea457466e1e7050b70c4d96f9d6640f2bbf6390cea093"
-                },
-                {
-                    "type": "patch",
-                    "path": "oars.patch"
+                    "url": "https://download.kde.org/stable/konversation/1.7.7/src/konversation-1.7.7.tar.xz",
+                    "sha256": "47ec161c1385981a8b99d28c419e88b24823dc01b68fb1623894818974c218a7"
                 }
             ]
         }
