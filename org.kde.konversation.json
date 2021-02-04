@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/20.12.1/src/konversation-20.12.1.tar.xz",
-                    "sha256": "441e8924763893e5933309dd90525ed8fc37e6e7dc2eda2b1e6cab7176f4d7f4"
+                    "url": "https://download.kde.org/stable/release-service/20.12.2/src/konversation-20.12.2.tar.xz",
+                    "sha256": "14c53896848b870534ec83415a424a5b1a23f4f35040acb9caaad4fef7c52354"
                 }
             ]
         }
