@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.08.2/src/konversation-21.08.2.tar.xz",
-                    "sha256": "ea22da9832e3e049369098fd80d752d83b3704ded4932d78766120706fef8aae"
+                    "url": "https://download.kde.org/stable/release-service/21.08.3/src/konversation-21.08.3.tar.xz",
+                    "sha256": "fb1f4ac9e3242a20cacd1055d4a295659d293e73c9954c69510967a6cd85d271"
                 }
             ]
         }
