@@ -22,7 +22,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/qca/2.3.4/qca-2.3.4.tar.xz",
-                    "sha256": "6b695881a7e3fd95f73aaee6eaeab96f6ad17e515e9c2b3d4b3272d7862ff5c4"
+                    "sha256": "6b695881a7e3fd95f73aaee6eaeab96f6ad17e515e9c2b3d4b3272d7862ff5c4",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 13606,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/qca/$version/qca-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -33,7 +39,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.12.3/src/konversation-21.12.3.tar.xz",
-                    "sha256": "00e16ff398e4ff19c8485f5d5078faea018c7b11c25d535d5949fca6eefcbd15"
+                    "sha256": "00e16ff398e4ff19c8485f5d5078faea018c7b11c25d535d5949fca6eefcbd15",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/konversation-$version.tar.xz"
+                    }
                 }
             ]
         }
