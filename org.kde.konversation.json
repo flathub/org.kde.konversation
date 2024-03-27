@@ -1,7 +1,7 @@
 {
     "id": "org.kde.konversation",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
     "command": "konversation",
     "rename-icon": "konversation",
@@ -11,14 +11,23 @@
         "--share=network",
         "--socket=fallback-x11",
         "--socket=wayland",
+        "--talk-name=org.freedesktop.Notifications",
         "--talk-name=org.kde.StatusNotifierWatcher",
-        "--talk-name=org.kde.kssld5",
-        "--talk-name=org.freedesktop.Notifications"
+        "--talk-name=org.kde.kssld5"
+    ],
+    "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/lib/pkgconfig"
     ],
     "modules": [
         {
             "name": "qca",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DBUILD_WITH_QT6=ON"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -39,8 +48,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/konversation-23.08.5.tar.xz",
-                    "sha256": "60576f16773789596b612969bbbf3a2762ef1cbab21bc19565483310e63d25be",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/konversation-24.02.1.tar.xz",
+                    "sha256": "cc61dfd056680c3e06a0da74dc02d319d12dcbad1c2c7835e00415e938866c0d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -50,10 +59,5 @@
                 }
             ]
         }
-    ],
-    "cleanup": [
-        "/include",
-        "/lib/cmake",
-        "/lib/pkgconfig"
     ]
 }
