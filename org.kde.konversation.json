@@ -48,8 +48,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.3/src/konversation-24.12.3.tar.xz",
-                    "sha256": "3b6e0d6b0bbf055893780a18026eef682ccffe44df2580d923089a0acedc220c",
+                    "url": "https://download.kde.org/stable/release-service/25.04.0/src/konversation-25.04.0.tar.xz",
+                    "sha256": "92d1dfc7cbafa9e1c9e3a426ac4e80e28df4a157e08f076f0654c3ce6e9894d4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
