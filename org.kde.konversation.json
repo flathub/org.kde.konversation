@@ -25,29 +25,12 @@
     ],
     "modules": [
         {
-            "name": "qca",
-            "buildsystem": "cmake-ninja",
-            "config-opts": [
-                "-DBUILD_TESTING=OFF",
-                "-DBUILD_WITH_QT6=ON"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/qca/2.3.10/qca-2.3.10.tar.xz",
-                    "sha256": "1c5b722da93d559365719226bb121c726ec3c0dc4c67dea34f1e50e4e0d14a02",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 13606,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/qca/$version/qca-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
             "name": "konversation",
             "buildsystem": "cmake-ninja",
+            "post-install": [
+              "mkdir $FLATPAK_DEST/lib/",
+              "ln -vs /usr/lib/libqca-qt6.so.2 $FLATPAK_DEST/lib/libqca-qt6.so.2"
+            ],
             "sources": [
                 {
                     "type": "archive",
