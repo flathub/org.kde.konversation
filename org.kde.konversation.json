@@ -27,10 +27,6 @@
         {
             "name": "konversation",
             "buildsystem": "cmake-ninja",
-            "post-install": [
-              "mkdir $FLATPAK_DEST/lib/",
-              "ln -vs /usr/lib/libqca-qt6.so.2 $FLATPAK_DEST/lib/libqca-qt6.so.2"
-            ],
             "sources": [
                 {
                     "type": "archive",
