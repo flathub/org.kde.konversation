@@ -10,6 +10,7 @@
         "--share=ipc",
         "--share=network",
         "--socket=fallback-x11",
+        "--socket=pulseaudio",
         "--socket=wayland",
         "--talk-name=org.freedesktop.Notifications",
         "--talk-name=org.kde.StatusNotifierWatcher",
