@@ -32,8 +32,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/konversation-26.04.2.tar.xz",
-                    "sha256": "fc9ec5c697e0043ea86868068df77d7b6c60aa8ecc9664db3873b85270f1a1f5",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/konversation-26.04.3.tar.xz",
+                    "sha256": "d9d77080d4d8756ef8cc6767dbe7e59ef055eb7638cf43b129ee5db62357fa77",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
